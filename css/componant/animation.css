@@ -1,0 +1,35 @@
+#animation h5{ /*Titre des 3 sous-parties*/
+    display: flex;
+    margin-left: 5%;
+    font-size: 15px;
+    font-family: “SF Mono”, “Fira Code”, “Fira Mono”, “Roboto Mono”, monospace;
+    color: green;
+}
+
+#carouselExampleIndicators {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+}
+
+#diorama_img{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+}
+
+.video_lumiere{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+}
+.video_lumiere video{
+    width: 100%;
+}

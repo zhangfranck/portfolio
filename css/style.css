@@ -1,0 +1,264 @@
+/* -- Chapitre Intro -- */
+@import url(componant/intro.css);
+
+/* -- Chapitre About -- */
+@import url(componant/about.css);
+
+/* - Partie Coding - */
+@import url(componant/coding.css);
+
+/* - Partie Animation - */
+@import url(componant/animation.css);
+
+/* - Partie Photoshop - */
+@import url(componant/photoshop.css);
+
+/* - Partie Game design - */
+@import url(componant/game_design.css);
+
+
+/*Nav bar*/
+#navbarText a{
+    font-family: “SF Mono”, “Fira Code”, “Fira Mono”, “Roboto Mono”, monospace;
+    color: green;
+}
+
+#navbarText {
+	-webkit-animation: navbarText 2s both;
+	        animation: navbarText 2s both;
+}
+
+@-webkit-keyframes navbarText {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes navbarText  {
+    0% {
+      -webkit-transform: translateY(-500px);
+              transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: translateY(-65px);
+              transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: translateY(-28px);
+              transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    90% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: translateY(-8px);
+              transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+
+/*Titre Chapitre Work*/
+#work h3{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: Calibre, Inter, “San Francisco”, “SF Pro Text”, -apple-system, system-ui, sans serif;
+    color: green;
+}
+
+/*Réseaux sociaux*/
+.social{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.social img{
+    width: 40%;
+}
+.social a{
+    width: 20%;
+}
+
+/*Le footer*/
+.footer{
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/*La Responsive*/
+
+@media screen and (min-width:800px){
+
+    /*Les textes*/
+    #bonjour_intro{
+        font-size: 25px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #nom_intro{
+        font-size: 80px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #accroche_intro{
+        font-size: 80px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #presentation{
+        font-size: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #about h3{
+        font-size: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .moi{
+        font-size: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #work h3{
+        font-size: 50px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .titre_partie{
+        font-size: 40px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .work_texte{
+        font-size: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #animation h5{
+        font-size: 35px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    /*Les images*/
+    #site_img{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #carouselExampleIndicators{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #diorama_img{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .video_lumiere video{
+        margin-left: 16.5%;
+        margin-right: 20%;
+        width: 67%;
+    }
+    #photoshop_img{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    #carouselExampleIndicators2{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .social img{
+        width: 20%;
+    }
+    .social a{
+        width: 15%;
+    }
+    .social{
+        padding-left: 10%;
+        margin-top: 5%;
+    }
+    .portrait{
+        margin-left: 20%;
+    }
+}
